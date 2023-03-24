@@ -1,9 +1,3 @@
-/*
- * File: errors_2.c
- * Auth: Bennett Dixon
- *       Brennan D Baraban
- */
-
 #include "monty.h"
 
 int short_stack_error(unsigned int line_number, char *op);
@@ -75,4 +69,3 @@ int pchar_error(unsigned int line_number, char *message)
 	fprintf(stderr, "L%u: can't pchar, %s\n", line_number, message);
 	return (EXIT_FAILURE);
 }
-
